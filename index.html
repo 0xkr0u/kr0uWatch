@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kr0Nos Login</title>
+  <link rel="stylesheet" href="global.css">
+  <script src="login-validation.js" defer></script>
+</head>
+<body>
+  <div class="navbar">
+    <H1> Welcome to Kr0uWatch
+  
+  </div>
+
+  <div class="container">
+    <div class="form-card">
+      <form onsubmit="return false;">
+        <h3>Welcome To Kr0Nos</h3>
+        <input type="text" placeholder="Enter Username" id="username" required>
+        <input type="password" placeholder="Enter Password" id="password" required>
+        <input type="button" id="button" value="Login" onclick="validate_login()">
+        <div class="input-response"></div> <!-- response area -->
+      </form>
+    </div>
+  </div>
+</body>
+</html>

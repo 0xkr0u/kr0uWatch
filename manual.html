@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kr0Nos Dashboard</title>
+  <link rel="stylesheet" href="global.css">
+  <script src="login-validation.js" defer></script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Login</a>
+    <a href="manual.html">Dashboard</a>
+  </div>
+
+  <div class="container">
+
+    <div class="form-card">
+      <h3>Upload a File</h3>
+      <input type="file" id="fileUpload">
+      <input type="button" value="Upload" onclick="handleUpload()">
+    </div>
+
+
+    <div class="form-card">
+      <h3>Search Engine</h3>
+      <input type="text" id="searchBar" placeholder="Search string...">
+    </div>
+
+
+    <div class="form-card">
+      <h3>Log Content</h3>
+      <div id="logCards" class="json-cards"></div>
+      <div id="pagination" class="pagination"></div>
+    </div>
+  </div>
+</body>
+</html>
